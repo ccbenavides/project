@@ -38,7 +38,7 @@ while(boleano){
 // function
 // return 
 function nombre_function(param){
-    console.log(param);
+    // console.log(param);
     // contenido
 }
 nombre_function(4);
@@ -56,6 +56,7 @@ nombre_function(4);
 // class
 // new 
 // this
+
 
 
 
