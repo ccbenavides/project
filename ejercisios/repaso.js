@@ -8,6 +8,7 @@
 // NaN
 
 // defineme que es una variable
+/*
 var numero = 5;
 var cadena = "cadena";
 var boolean = false;
@@ -56,7 +57,7 @@ nombre_function(4);
 // class
 // new 
 // this
-
+*/
 
 
 

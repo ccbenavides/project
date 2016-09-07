@@ -81,3 +81,93 @@ if(uno >= dos && uno >= tres){
     console.log(tres, dos, uno); 
 }
   */
+  /*
+var numero = prompt("ingrese un numero entre 0 y 9.999");
+console.log(numero.length);
+*/
+/*
+var numero = pormpt("ingrese un numero entre 0 y 9.999");
+if(numero < 0 && numero > 9.999){
+    console.log("el numero es incorrecto");
+} else {
+    for(var uno = 0; ){
+
+    }
+}
+*/
+/*
+var numero = prompt("ingrese un numero entre 0 y 9.999");
+var convertir = numero.toString();
+var alrevez = "";
+if(numero >= 0 && numero <= 9999 ){
+    console.log("el numero es correcto");
+    for(var i = convertir.length -1; i >= 0; i-- ){
+    alrevez = alrevez + convertir[i]
+    } 
+    if (alrevez === convertir){
+        console.log("es capicua");
+    } else {
+        console.log("no es capicua");
+    }
+} else {
+    console.log("el numero es incorrecto");
+} 
+*/
+
+/*
+var pokemon1 = {
+    nombre : "charmander",
+    tipo : "fuego",
+    evolucion : "charmeleon",
+    peso : 12,
+    ataque : function(){
+        console.log("lanzallamas");
+    }
+}
+
+var pokemon2 = {
+    nombre : "bulbasaur",
+    tipo : "planta",
+    evolucion : "ivysaur",
+    peso : 13,
+    ataque : function(){
+        console.log("latigosepa");
+    }
+}
+
+var pokemon3 = {
+    nombre : "squirtle",
+    tipo : "agua",
+    evolucion : "waltortle",
+    peso : 14,
+    ataque : function(){
+        console.log("hidrobomba");
+    }
+}
+
+// console.log(pokemon1.ataque());
+
+class Pokemon {
+    constructor(nombre, tipo, evolucion, peso, ataque){
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.evolucion = evolucion;
+        this.peso = peso;
+        this.ataque = ataque;
+    }
+    metodo1(){
+        console.log("nombre " + this.nombre +  " tipo "  + this.tipo +  " evolucion " + this.evolucion + " " + "peso " + this.peso + " " + "ataque " + " " + this.ataque);
+    }
+}
+*/
+
+var objeto = {
+        titulo : "Free Speech Now  Brutal War on the Internet",
+        mes_dia : "10 agosto",
+        imagen : "url: https://cdn-images-1.medium.com/fit/t/800/240/0*eIftYj-G7GSiHZ_B.jpg",
+        autor : "Anders Emil Maller",
+        descripcion : "The internet has ruined...",
+        favoritos : "100",
+        respuestas : "31 responses",
+        categoria : "trouble stories"
+}
