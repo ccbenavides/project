@@ -26,13 +26,15 @@ console.log(`las respuestas :  ${objeto.respuestas}`);
 var $contenido = document.getElementById("contenido");
 
 $contenido.innerHTML =  `
-<span>  ${objeto.autor} in  </span>
-<span> fecha </span>    
-<div> <img href=""> </div>
-<h3> ${objeto.titulo} </h3>
-<p></p>
+<span>  ${objeto.autor} in ${objeto.categoria} </span>
 <div>
-    <span></span>
-    <span></span>
+    <span> ${objeto.mes_dia} </span>
+</div>    
+<div> <img src="${objeto.imagen}"> </div>
+<h3> ${objeto.titulo} </h3>
+<p>${objeto.descripcion}</p>
+<div class="cajaflex">
+    <span>${objeto.favoritos}</span>
+    <span>${objeto.respuestas}</span>
 </div>
 `;
