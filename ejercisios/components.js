@@ -26,15 +26,37 @@ console.log(`las respuestas :  ${objeto.respuestas}`);
 var $contenido = document.getElementById("contenido");
 
 $contenido.innerHTML =  `
-<span>  ${objeto.autor} in ${objeto.categoria} </span>
-<div>
-    <span> ${objeto.mes_dia} </span>
-</div>    
-<div> <img src="${objeto.imagen}"> </div>
-<h3> ${objeto.titulo} </h3>
-<p>${objeto.descripcion}</p>
-<div class="cajaflex">
-    <span>${objeto.favoritos}</span>
-    <span>${objeto.respuestas}</span>
+<div class="articulo">
+    <span class="color_green">  ${objeto.autor}
+        <span class="color_gray"> in </span>
+        ${objeto.categoria} </span>
+    <div class="fecha">
+        <span> ${objeto.mes_dia} </span>
+    </div>    
+    <div> <img src="${objeto.imagen}"> </div>
+    <h3> ${objeto.titulo} </h3>
+    <p class="color_gray">${objeto.descripcion}</p>
+    <div class="cajaflex">
+        <span>${objeto.favoritos}</span>
+        <span>${objeto.respuestas}</span>
+    </div>
+</div>
+`;
+
+$contenido.innerHTML += `
+<div class="articulo">
+    <span class="color_green">  ${objeto.autor}
+        <span class="color_gray"> in </span>
+        ${objeto.categoria} </span>
+    <div class="fecha">
+        <span> ${objeto.mes_dia} </span>
+    </div>    
+    <div> <img src="${objeto.imagen}"> </div>
+    <h3> ${objeto.titulo} </h3>
+    <p class="color_gray">${objeto.descripcion}</p>
+    <div class="cajaflex">
+        <span>${objeto.favoritos}</span>
+        <span>${objeto.respuestas}</span>
+    </div>
 </div>
 `;

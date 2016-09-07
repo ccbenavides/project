@@ -2,3 +2,32 @@
     display : flex;
     justify-content: space-between;
 }
+.articulo{
+    border: 1px solid #ddd;
+    padding: 10px;
+   box-shadow: 0 1px 4px rgba(0,0,0,.04);
+   margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+span{
+    font-size: 14px;
+    color :rgba(0,0,0,.44);
+}
+
+.fecha{
+    margin-bottom: 15px;
+
+}
+.color_green{
+    color  :#00ab6b;
+}
+
+.color_gray{
+    color  :rgba(0,0,0,.44);
+}
