@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ccbenavides <ccbenavidesmontenegro@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ccbenavides/project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-icons": "PolymerElements/iron-icons#^1.1.3"
+  }
+}

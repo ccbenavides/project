@@ -37,8 +37,8 @@ $contenido.innerHTML =  `
     <h3> ${objeto.titulo} </h3>
     <p class="color_gray">${objeto.descripcion}</p>
     <div class="cajaflex">
-        <span>${objeto.favoritos}</span>
-        <span>${objeto.respuestas}</span>
+        <span> <iron-icon icon="icons:favorite-border"></iron-icon> ${objeto.favoritos}</span>
+        <span>${objeto.respuestas} <iron-icon icon="icons:turned-in-not"></iron-icon></span>
     </div>
 </div>
 `;
